@@ -1,0 +1,10 @@
+.inputbox {
+	width: calc(100% - 30px);
+	position:relative;
+	top:15px;
+	height: 50px;
+	background: #00ff00;
+	backdrop-filter: none;
+	margin:  15px 15px;
+}
+
