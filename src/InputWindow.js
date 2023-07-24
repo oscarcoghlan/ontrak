@@ -5,8 +5,8 @@ function InputWindow(props) {
 	const styles = props.style || null;
 	return (
 		<div className="inputwindow" style={styles} id={id} >
-			<InputBox id="username"/>
-			<InputBox id="password" styles={{top:49+"px"}}/>
+			<InputBox id="username" />
+			<InputBox id="password" styles={{top:49+"px"}} />
 		</div>
 	);
 }
